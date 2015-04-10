@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class AbstractFactoryViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+    AbstractFactoryViewController *viewController;
+}
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet AbstractFactoryViewController *viewController;
 
 @end
 

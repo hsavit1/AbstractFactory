@@ -14,6 +14,18 @@
 		5CE757731AD8407C000E06D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE757721AD8407C000E06D6 /* Images.xcassets */; };
 		5CE757761AD8407C000E06D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE757741AD8407C000E06D6 /* LaunchScreen.xib */; };
 		5CE757821AD8407C000E06D6 /* AbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757811AD8407C000E06D6 /* AbstractFactoryTests.m */; };
+		5CE757A41AD8415F000E06D6 /* AbstractFactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7578B1AD8415F000E06D6 /* AbstractFactoryViewController.xib */; };
+		5CE757A61AD8415F000E06D6 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757901AD8415F000E06D6 /* AbstractFactoryViewController.m */; };
+		5CE757A71AD8415F000E06D6 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757921AD8415F000E06D6 /* AcmeBrandingFactory.m */; };
+		5CE757A81AD8415F000E06D6 /* AcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757941AD8415F000E06D6 /* AcmeMainButton.m */; };
+		5CE757A91AD8415F000E06D6 /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757961AD8415F000E06D6 /* AcmeToolbar.m */; };
+		5CE757AA1AD8415F000E06D6 /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757981AD8415F000E06D6 /* AcmeView.m */; };
+		5CE757AB1AD8415F000E06D6 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7579A1AD8415F000E06D6 /* BrandingFactory.m */; };
+		5CE757AC1AD8415F000E06D6 /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7579C1AD8415F000E06D6 /* SierraBrandingFactory.m */; };
+		5CE757AD1AD8415F000E06D6 /* SierraMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7579E1AD8415F000E06D6 /* SierraMainButton.m */; };
+		5CE757AE1AD8415F000E06D6 /* SierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757A01AD8415F000E06D6 /* SierraToolbar.m */; };
+		5CE757AF1AD8415F000E06D6 /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE757A21AD8415F000E06D6 /* SierraView.m */; };
+		5CE757B01AD8415F000E06D6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE757A31AD8415F000E06D6 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,28 @@
 		5CE7577B1AD8407C000E06D6 /* AbstractFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE757801AD8407C000E06D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE757811AD8407C000E06D6 /* AbstractFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryTests.m; sourceTree = "<group>"; };
+		5CE7578B1AD8415F000E06D6 /* AbstractFactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AbstractFactoryViewController.xib; path = AbstractFactory/AbstractFactoryViewController.xib; sourceTree = "<group>"; };
+		5CE7578F1AD8415F000E06D6 /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
+		5CE757901AD8415F000E06D6 /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
+		5CE757911AD8415F000E06D6 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		5CE757921AD8415F000E06D6 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		5CE757931AD8415F000E06D6 /* AcmeMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeMainButton.h; sourceTree = "<group>"; };
+		5CE757941AD8415F000E06D6 /* AcmeMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeMainButton.m; sourceTree = "<group>"; };
+		5CE757951AD8415F000E06D6 /* AcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeToolbar.h; sourceTree = "<group>"; };
+		5CE757961AD8415F000E06D6 /* AcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeToolbar.m; sourceTree = "<group>"; };
+		5CE757971AD8415F000E06D6 /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
+		5CE757981AD8415F000E06D6 /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
+		5CE757991AD8415F000E06D6 /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		5CE7579A1AD8415F000E06D6 /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		5CE7579B1AD8415F000E06D6 /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		5CE7579C1AD8415F000E06D6 /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
+		5CE7579D1AD8415F000E06D6 /* SierraMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraMainButton.h; sourceTree = "<group>"; };
+		5CE7579E1AD8415F000E06D6 /* SierraMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraMainButton.m; sourceTree = "<group>"; };
+		5CE7579F1AD8415F000E06D6 /* SierraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraToolbar.h; sourceTree = "<group>"; };
+		5CE757A01AD8415F000E06D6 /* SierraToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraToolbar.m; sourceTree = "<group>"; };
+		5CE757A11AD8415F000E06D6 /* SierraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraView.h; sourceTree = "<group>"; };
+		5CE757A21AD8415F000E06D6 /* SierraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraView.m; sourceTree = "<group>"; };
+		5CE757A31AD8415F000E06D6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = AbstractFactory/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +97,9 @@
 		5CE757591AD8407C000E06D6 = {
 			isa = PBXGroup;
 			children = (
+				5CE7578C1AD8415F000E06D6 /* Classes */,
+				5CE757A31AD8415F000E06D6 /* MainWindow.xib */,
+				5CE7578B1AD8415F000E06D6 /* AbstractFactoryViewController.xib */,
 				5CE757641AD8407C000E06D6 /* AbstractFactory */,
 				5CE7577E1AD8407C000E06D6 /* AbstractFactoryTests */,
 				5CE757631AD8407C000E06D6 /* Products */,
@@ -117,6 +154,34 @@
 				5CE757801AD8407C000E06D6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CE7578C1AD8415F000E06D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CE7578F1AD8415F000E06D6 /* AbstractFactoryViewController.h */,
+				5CE757901AD8415F000E06D6 /* AbstractFactoryViewController.m */,
+				5CE757911AD8415F000E06D6 /* AcmeBrandingFactory.h */,
+				5CE757921AD8415F000E06D6 /* AcmeBrandingFactory.m */,
+				5CE757931AD8415F000E06D6 /* AcmeMainButton.h */,
+				5CE757941AD8415F000E06D6 /* AcmeMainButton.m */,
+				5CE757951AD8415F000E06D6 /* AcmeToolbar.h */,
+				5CE757961AD8415F000E06D6 /* AcmeToolbar.m */,
+				5CE757971AD8415F000E06D6 /* AcmeView.h */,
+				5CE757981AD8415F000E06D6 /* AcmeView.m */,
+				5CE757991AD8415F000E06D6 /* BrandingFactory.h */,
+				5CE7579A1AD8415F000E06D6 /* BrandingFactory.m */,
+				5CE7579B1AD8415F000E06D6 /* SierraBrandingFactory.h */,
+				5CE7579C1AD8415F000E06D6 /* SierraBrandingFactory.m */,
+				5CE7579D1AD8415F000E06D6 /* SierraMainButton.h */,
+				5CE7579E1AD8415F000E06D6 /* SierraMainButton.m */,
+				5CE7579F1AD8415F000E06D6 /* SierraToolbar.h */,
+				5CE757A01AD8415F000E06D6 /* SierraToolbar.m */,
+				5CE757A11AD8415F000E06D6 /* SierraView.h */,
+				5CE757A21AD8415F000E06D6 /* SierraView.m */,
+			);
+			name = Classes;
+			path = AbstractFactory/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE757711AD8407C000E06D6 /* Main.storyboard in Resources */,
+				5CE757B01AD8415F000E06D6 /* MainWindow.xib in Resources */,
 				5CE757761AD8407C000E06D6 /* LaunchScreen.xib in Resources */,
 				5CE757731AD8407C000E06D6 /* Images.xcassets in Resources */,
+				5CE757A41AD8415F000E06D6 /* AbstractFactoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +286,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE757AF1AD8415F000E06D6 /* SierraView.m in Sources */,
 				5CE7576E1AD8407C000E06D6 /* ViewController.m in Sources */,
+				5CE757A91AD8415F000E06D6 /* AcmeToolbar.m in Sources */,
+				5CE757A81AD8415F000E06D6 /* AcmeMainButton.m in Sources */,
+				5CE757AC1AD8415F000E06D6 /* SierraBrandingFactory.m in Sources */,
+				5CE757AE1AD8415F000E06D6 /* SierraToolbar.m in Sources */,
+				5CE757AD1AD8415F000E06D6 /* SierraMainButton.m in Sources */,
 				5CE7576B1AD8407C000E06D6 /* AppDelegate.m in Sources */,
 				5CE757681AD8407C000E06D6 /* main.m in Sources */,
+				5CE757AB1AD8415F000E06D6 /* BrandingFactory.m in Sources */,
+				5CE757A61AD8415F000E06D6 /* AbstractFactoryViewController.m in Sources */,
+				5CE757A71AD8415F000E06D6 /* AcmeBrandingFactory.m in Sources */,
+				5CE757AA1AD8415F000E06D6 /* AcmeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
